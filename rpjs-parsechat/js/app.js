@@ -38,11 +38,11 @@ $(document).ready(function() {
 		});
 	});
 // NEED TO FIX BELOW FUNCTION
-	$('.btn').on('click', function () {
+	$('.btn-danger').on('click', function () {
 	
 		console.log("Working????");
 
-		var objectID = 'H1NPF9g5oc'
+		var objectID = 'jKIyyyF88u';
 
 		$.ajax({
 			url: 'https:api.parse.com/1/classes/MessageBoard/' + objectID,
